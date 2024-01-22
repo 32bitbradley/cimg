@@ -5,3 +5,7 @@ This image extends the base Circleci `cimg/python:3.10` image with Ansible and c
 **Apt**
 
 * sshpass
+
+**Pip**
+
+* Ansible==9.1.0
