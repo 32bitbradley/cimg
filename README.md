@@ -5,6 +5,7 @@ This image extends the base Circleci `cimg/python:3.10` image with Ansible and c
 **Apt**
 
 * sshpass
+* git
 
 **Pip**
 
@@ -26,3 +27,9 @@ jobs:
     steps:
       - checkout
 ```
+
+# Looking for more
+
+Urgh, installing pip requirements take such a long time, and for every pipeline run too!
+
+This image is part of a collection of CircleCI images I've built with various utilities pre-installed to save time during pipeline runs, check them out on [Dockerhub](https://hub.docker.com/search?q=32bitbradley%2Fcimg) and [Github](https://github.com/search?q=owner%3A32bitbradley+cimg&type=repositories)
